@@ -8,7 +8,9 @@ h1 {
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
-  font-family: arial, sans-serif;
+}
+a {
+  text-decoration: none;
 }
 
 ul {
