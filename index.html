@@ -18,6 +18,25 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <form id="search-form">
+            <div class="row">
+              <div class="col-9">
+              <input
+                type="search"
+                placeholder="Type a city name"
+                class="form-control mb-3"
+                id="city-input"
+                autocomplete="off"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="btn btn-primary w-100"
+              />
+            </div>
+          </form>
           <div class="overview">
             <h1 id="city">Melbourne</h1>
             <ul>
@@ -48,16 +67,15 @@
             </div>
           </div>
         </div>
+        </div>
         <small>
           <a
             href="https://github.com/TatumCee/Vanilla-Weather-App"
             target="_blank"
-            >Open Source code</a
-          >
+            >Open Source code</a>
           by Tatum C</small
         >
       </div>
-    </div>
     <script src="src/app.js"></script>
   </body>
 </html>
